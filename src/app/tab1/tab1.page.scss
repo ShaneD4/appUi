@@ -1,4 +1,71 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+ion-avatar {
+  height: 70px;
+  width: 70px;
+}
+
+.name-header-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: #4e4e4e;
+  margin-bottom: -8px;
+}
+
+.no-of-tasks-header-text {
+  color: #737373;
+}
+
+.tasks-header-text {
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4e4e4e;
+  ion-icon {
+    margin-bottom: -2px;
+    font-weight: bold;
+  }
+}
+
+.card-header-color-div {
+  height: 4px;
+  width: 40px;
+  background: #3d83fb;
+}
+
+.card-header-color-div-in-progress {
+  height: 4px;
+  width: 40px;
+  background: #4fdb92;
+}
+
+ion-content {
+  --background: #f7f9fc;
+  ion-row {
+    margin-bottom: 5px;
+  }
+}
+
+ion-card {
+  --background: #ffffff;
+}
+
+ion-toolbar {
+  --background: #f7f9fc;
+  ion-item {
+    --background: #f7f9fc;
+  }
+}
+
+.all-tasks-header-item {
+  height: 40px;
+  margin-top: 8px;
+  border-bottom: 1px solid #eaecef;
+}
+
+.time-remaining-text {
+  font-weight: bold;
+}
+
+.show-hide-text {
+  font-size: 13px;
+  margin-left: 6px;
 }
